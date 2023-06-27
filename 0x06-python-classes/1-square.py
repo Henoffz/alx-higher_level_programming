@@ -2,6 +2,7 @@
 
 """ Definition of Square class."""
 
+
 class Square:
     """A class with private attributes."""
 
