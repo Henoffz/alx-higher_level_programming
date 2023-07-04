@@ -74,3 +74,7 @@ class Rectangle:
         """
         rect_repr = "Rectangle({:d}, {:d})".format(self.width, self.height)
         return (rect_repr)
+
+    def __del__(self):
+        """Print a message for every instance of rectangle deleted."""
+        print("Bye rectangle...")
