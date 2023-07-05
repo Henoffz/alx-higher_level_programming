@@ -66,12 +66,10 @@ class Rectangle:
         representation with the # symbol.
         """
         if self.width == 0 or self.height == 0:
-            return ("")
-        width = "#" * self.width
-        rectangle = width
-        for i in range(self.height - 1):
-            rectangle += "\n" + width
-        return (rectangle)
+            return ""
+        symbol = str(self.print_symbol)
+        rectangle = (symbol * self.width + '\n') * self.height
+        return rectangle[:-1]
 
     def __repr__(self):
         """
