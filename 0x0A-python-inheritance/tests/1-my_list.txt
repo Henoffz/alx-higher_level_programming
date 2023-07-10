@@ -14,7 +14,7 @@
 [5, 2, 3, 4, 4]
 
 >>> empty_list = Mylist()
->>> print(my_list2)
+>>> print(empty_list)
 []
 >>> empty_list.print_sorted()
 []
