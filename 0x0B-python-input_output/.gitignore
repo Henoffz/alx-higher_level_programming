@@ -5,3 +5,8 @@
 __pycache__
 **/*main.py
 *.txt
+Add_item.json
+My_dict.json
+My_list.json
+Student.json
+my_set.json
