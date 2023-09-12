@@ -20,7 +20,7 @@ module.exports = class Rectangle {
     this.width = h;
   }
   double () {
-    this.height =* 2;
-    this.width =* 2;
+    this.height *= 2;
+    this.width *= 2;
   }
 };
