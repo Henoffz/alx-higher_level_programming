@@ -11,7 +11,7 @@ Base = declarative_base()
 
 
 class State(Base):
-    """State class that inherits from Base that 
+    """State class that inherits from Base that
 links to MySQL table containing the states"""
 
     __tablename__ = 'states'
